@@ -1,3 +1,4 @@
+release_repo_url: git@github.com:revyos-ros/image_pipeline-release.git
 tracks:
   crystal:
     actions:
