@@ -2,6 +2,18 @@
 Changelog for package depth_image_proc
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+5.0.6 (2024-12-11)
+------------------
+* Support QoS override parameters in depth_image_proc/register (backport `#1043 <https://github.com/ros-perception/image_pipeline/issues/1043>`_) (`#1044 <https://github.com/ros-perception/image_pipeline/issues/1044>`_)
+  This PR adds support to the `depth_image_proc` - `register` node for
+  setting External QoS Configuration on topic _subscriptions\_.
+  Co-authored-by: Stuart Alldritt <s.k.alldritt@gmail.com>
+  Co-authored-by: Alejandro Hernández Cordero <ahcorde@gmail.com>
+* Contributors: mergify[bot]
+
+5.0.5 (2024-10-31)
+------------------
+
 5.0.4 (2024-08-20)
 ------------------
 * Finish QoS updates (backport `#1019 <https://github.com/ros-perception/image_pipeline/issues/1019>`_) (`#1024 <https://github.com/ros-perception/image_pipeline/issues/1024>`_)
