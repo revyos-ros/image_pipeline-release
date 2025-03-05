@@ -221,6 +221,11 @@ void ImageViewNode::imageCb(const sensor_msgs::msg::Image::ConstSharedPtr & msg)
       encoding = "mono8";
     }
 
+    // Add a special rule for YUV format
+    if (encoding.find("yuv") != std::string::npos) {
+      encoding = "bgr8";
+    }
+
     queued_image_.set(
       cv_bridge::cvtColorForDisplay(
         cv_bridge::toCvShare(msg), encoding, options));
@@ -291,6 +296,8 @@ void ImageViewNode::windowThread()
       cv::imshow(window_name_, image->image);
       shown_image_.set(image);
       cv::waitKey(1);
+    } else {
+      rclcpp::sleep_for(std::chrono::milliseconds(20));
     }
   }
 
