@@ -2,6 +2,17 @@
 Changelog for package depth_image_proc
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+5.0.9 (2025-02-27)
+------------------
+* fix depth_image_proc launch files (backport `#1077 <https://github.com/ros-perception/image_pipeline/issues/1077>`_) (`#1080 <https://github.com/ros-perception/image_pipeline/issues/1080>`_)
+* Contributors: mergify[bot]
+
+5.0.8 (2025-02-13)
+------------------
+
+5.0.7 (2025-02-10)
+------------------
+
 5.0.6 (2024-12-11)
 ------------------
 * Support QoS override parameters in depth_image_proc/register (backport `#1043 <https://github.com/ros-perception/image_pipeline/issues/1043>`_) (`#1044 <https://github.com/ros-perception/image_pipeline/issues/1044>`_)
