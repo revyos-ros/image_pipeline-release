@@ -2,6 +2,12 @@
 Changelog for package image_rotate
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+5.0.11 (2025-05-21)
+-------------------
+
+5.0.10 (2025-04-22)
+-------------------
+
 5.0.9 (2025-02-27)
 ------------------
 * fix depth_image_proc launch files (backport `#1077 <https://github.com/ros-perception/image_pipeline/issues/1077>`_) (`#1080 <https://github.com/ros-perception/image_pipeline/issues/1080>`_)
